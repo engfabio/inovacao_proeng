@@ -1,0 +1,68 @@
+# Dependências
+node_modules/
+/.pnp
+.pnp.js
+
+# Arquivos de build e produção
+/build/
+/dist/
+/out/
+/.next/
+
+# Arquivos de cache
+.cache/
+.parcel-cache/
+.npm/
+.yarn/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Arquivos do editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.vs/
+
+# Cobertura de testes
+/coverage/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+
+# Arquivos de lock de versão (opcional, mas geralmente mantido no git)
+# package-lock.json
+# yarn.lock
+
+# Arquivos gerados pelo TypeScript
+*.tsbuildinfo
+
+# Arquivos de debugging e profiling
+chrome-profiler-events*.json
+
+# Arquivos específicos do React
+.eslintcache
